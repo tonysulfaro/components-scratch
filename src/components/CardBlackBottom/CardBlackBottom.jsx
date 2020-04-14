@@ -20,6 +20,7 @@ const CardBlackBottom = ({ img_src, title, text }) => {
 
   const CardImg = styled.img`
     width: 100%;
+    border-radius: 5px;
   `;
 
   const CardTextContainer = styled.div`
