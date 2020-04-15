@@ -1,4 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Components Scratch
+
+## Motivation
+
+I already had some css components made in a seperate repo and thought for the sake of reusability to port some of them over from plain css to Styled Components in React.
+
+## Organization
+
+Components can be found in the src > components folder and have the following folder structure
+
+```
+src
+·· components
+···· Button
+······ index.js (export file)
+······ Button.js (actual component code)
+```
+
+Inspiration from Connor Wilson [here](https://itnext.io/how-to-write-your-own-reusable-react-component-library-a57dc7c9a210)
 
 ## Available Scripts
 
